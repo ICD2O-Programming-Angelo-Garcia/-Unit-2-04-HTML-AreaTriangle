@@ -1,4 +1,74 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Angelo Garcia
+* Created on: Mar 2025
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-01-HTML-JS-HelloWorld
 */
+
+/* Global Styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cylinder-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+/* Input Form Styling */
+.mdl-textfield {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mdl-textfield__input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Button Styling */
+.mdl-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mdl-button:hover {
+    background-color: #45a049;
+}
+
+/* Results Section */
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#volume-result {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 10px;
+}
